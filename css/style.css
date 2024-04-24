@@ -1,0 +1,77 @@
+
+body{
+    font-family: "PT Sans Caption", sans-serif;
+    background-color: #f7ecde;
+}
+h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    position: relative;
+}
+
+h1::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    height: 25%;
+    background-color: #fec260;
+    bottom: 2px;
+    transition: height .5s;
+}
+h1:hover::before{
+    
+    height: 50%;
+}
+hr {
+    border-top: 3px dotted black;
+  }
+.border-dashed{
+    border-style: dotted;
+}
+h2{
+    font-family: "Righteous", sans-serif;
+    
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-submit{
+    color: white;
+    background-color: #d1512d;
+}
+.btn-submit:hover{
+    background-color:  #bb4120;
+    color: white;
+    cursor: pointer;
+    
+}
+h5{
+    margin-bottom: 0;
+}
+.visit{
+    background-color: #9eb23b;
+    color: white;
+}
+.visit:hover{
+    background-color: #6e8018;
+    color: white;
+}
+.lyar{
+    background-color: rgba(0, 0, 0, 0.467);
+    display: none ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 55;
+}
+.color{
+    width: 25px;
+    height: 25px;
+}
